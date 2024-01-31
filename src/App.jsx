@@ -1,46 +1,43 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-//router-dom
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  RouterProvider,
-  Route,
-} from "react-router-dom";
 
-//pages
-import Aloqa_Uchun from "./pages/Aloqa_uchun";
-import Biz_haqimizda from "./pages/Biz_haqimizda";
+import AloqaUchun from "./pages/Aloqa_uchun";
+import BizHaqimizda from "./pages/Biz_haqimizda";
 import Ommaviy from "./pages/Ommaviy";
-import Error from "./pages/Error";
+import ErrorPage from "./pages/Error";
 import Home from "./pages/Home";
-import Mainlayout from "./layout/MainLayout";
+import MainLayout from "./layout/MainLayout";
 import Detail from "./pages/Detail";
 import CategoryProduct from "./pages/CategoryProduct";
 
 const App = () => {
-  const routes = createBrowserRouter(
-    createRoutesFromElements(
-      <Route path="/" element={<Mainlayout />}>
-        <Route index element={<Home />} />
-        <Route path="/aloqa_uchun" element={<Aloqa_Uchun />} />
-        <Route path="/biz_haqimizda" element={<Biz_haqimizda />} />
-        <Route path="/privacy-policy" element={<Ommaviy />} />
+  return (
+    <Router>
+      <Routes>
         <Route
-          path="/:category"
-          element={<CategoryProduct />}
-          // errorElement={<Error />}
-        />
-        <Route
-          path="/:category/:id"
-          element={<Detail />}
-          errorElement={<Error />}
-        />
-        <Route path="*" element={<Error />} />
-      </Route>
-    )
+          path="/"
+          element={<MainLayout />}
+        >
+          <Route index element={<Home />} />
+          <Route path="/aloqa_uchun" element={<AloqaUchun />} />
+          <Route path="/biz_haqimizda" element={<BizHaqimizda />} />
+          <Route path="/privacy-policy" element={<Ommaviy />} />
+          <Route
+            path="/:category"
+            element={<CategoryProduct />}
+            // errorElement={<ErrorPage />}
+          />
+          <Route
+            path="/:category/:id"
+            element={<Detail />}
+            // errorElement={<ErrorPage />}
+          />
+          <Route path="*" element={<ErrorPage />} />
+        </Route>
+      </Routes>
+    </Router>
   );
-  return <RouterProvider router={routes} />;
 };
 
 export default App;
