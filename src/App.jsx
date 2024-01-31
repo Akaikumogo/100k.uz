@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 
 //pages
-import Aloqa_Uchun from "./pages/Aloqa_Uchun";
+import Aloqa_Uchun from "./pages/Aloqa_uchun";
 import Biz_haqimizda from "./pages/Biz_haqimizda";
 import Ommaviy from "./pages/Ommaviy";
 import Error from "./pages/Error";
@@ -24,8 +24,8 @@ const App = () => {
       <Route path="/" element={<Mainlayout />}>
         <Route index element={<Home />} />
         <Route path="/aloqa_uchun" element={<Aloqa_Uchun />} />
-        <Route path="/biz_haqimizda" element={<Biz_haqimizda/>} />
-        <Route path="/privacy-policy" element={<Ommaviy/>} />
+        <Route path="/biz_haqimizda" element={<Biz_haqimizda />} />
+        <Route path="/privacy-policy" element={<Ommaviy />} />
         <Route
           path="/:category"
           element={<CategoryProduct />}
