@@ -133,7 +133,7 @@ import VitaminlarBir from "../image/VitaminlarBir.webp";
 import VitaminlarIkki from "../image/VitaminlarIkki.webp";
 import VitaminlarUch from "../image/VitaminlarUch.webp";
 import VitaminlarTort from "../image/VitaminlarTort.webp";
-import VitaminlarBesh from "../image/VitaminlarBesh.webp";
+import VitaminlarBesh from "../image/VItaminlarBesh.webp";
 import VitaminlarOlti from "../image/VitaminlarOlti.webp";
 import VitaminlarYetti from "../image/VitaminlarYetti.webp";
 
