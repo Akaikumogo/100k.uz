@@ -81,7 +81,7 @@ import TelefonlarTort from "../image/TelefonlarTort.webp";
 import GozallikBir from "../image/GozallikBir.webp";
 import GozallikIkki from "../image/GozallikIkki.webp";
 import GozallikUch from "../image/GozallikUch.webp";
-import GozallikTort from "../image/GozallikTort.webp";
+import GozallikTort from "../image/Gozalliktort.webp";
 import GozallikBesh from "../image/GozallikBesh.webp";
 import GozallikOlti from "../image/GozallikOlti.webp";
 import GozallikYetti from "../image/GozallikYetti.webp";
@@ -287,27 +287,27 @@ import TaqinchoqlarBir from "../image/TaqinchoqlarBir.webp";
 import TaqinchoqlarIkki from "../image/TaqinchoqlarIkki.webp";
 import TaqinchoqlarUch from "../image/TaqinchoqlarUch.webp";
 
-// Image import 
+// Image import
 import ElektronikaImage from "../image/ElektronikaImage.webp";
-import AksessuarlarImage from "../image/AksessuarlarImage.webp"
-import OyinchoqlarImage from "../image/OyinchoqlarImage.png"
+import AksessuarlarImage from "../image/AksessuarlarImage.webp";
+import OyinchoqlarImage from "../image/OyinchoqlarImage.png";
 import SovgaImage from "../image/SovgaImageThree.png";
-import MaishiyTexnikaImage from "../image/MaishiyTexnikaImage.webp"
-import Texnika from "../image/TexnikaImage.jpg"
-import SportJihozlari from "../image/SportJihozlari.png"
-import Gozalliklar from "../image/GozallikImage.webp"
-import QoshimchaJihozlar from "../image/QoshimchaJihozlar.jpg"
-import DiniyToplamlarImage from "../image/DiniyToplamlarImage.jpg"
-import Kiyimlar from "../image/KiyimlarHome.webp"
-import UyUchunTexnika from "../image/UyUchunTexnikaImage.jpg"
-import Telefonlar from "../image/TelefonlarImage.webp"
-import OshxonaUchun from "../image/OshxonauchunImage.webp"
-import ParfumeriyaImage from "../image/ParfumeriyaImage.jpg"
-import MassakUskunalar from "../image/MassajUskunalarImage.jpg"
-import SalomatlikImage from "../image/SalomatlikImage.webp"
-import DorilarVaVitaminlar from "../image/DorilarVaVitaminlarImage.jpg"
-import Kitoblar from "../image/KitoblarImage.webp"
-import ZargarlikBuyumlari from "../image/ZargarlikBuyumlariImage.png"
+import MaishiyTexnikaImage from "../image/MaishiyTexnikaImage.webp";
+import Texnika from "../image/TexnikaImage.jpg";
+import SportJihozlari from "../image/SportJihozlari.png";
+import Gozalliklar from "../image/GozallikImage.webp";
+import QoshimchaJihozlar from "../image/QoshimchaJihozlar.jpg";
+import DiniyToplamlarImage from "../image/DiniyToplamlarImage.jpg";
+import Kiyimlar from "../image/KiyimlarHome.webp";
+import UyUchunTexnika from "../image/UyUchunTexnikaImage.jpg";
+import Telefonlar from "../image/TelefonlarImage.webp";
+import OshxonaUchun from "../image/OshxonauchunImage.webp";
+import ParfumeriyaImage from "../image/ParfumeriyaImage.jpg";
+import MassakUskunalar from "../image/MassajUskunalarImage.jpg";
+import SalomatlikImage from "../image/SalomatlikImage.webp";
+import DorilarVaVitaminlar from "../image/DorilarVaVitaminlarImage.jpg";
+import Kitoblar from "../image/KitoblarImage.webp";
+import ZargarlikBuyumlari from "../image/ZargarlikBuyumlariImage.png";
 
 export const data = [
   {
@@ -323,7 +323,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Asilshop",
     category: "Elektronika",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 1,
@@ -338,7 +338,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Sportshop",
     category: "Aksessuarlar",
-    ImageValue:AksessuarlarImage
+    ImageValue: AksessuarlarImage,
   },
   {
     id: 2,
@@ -353,7 +353,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Jalolshop",
     category: "O'yinchoqlar",
-    ImageValue:OyinchoqlarImage
+    ImageValue: OyinchoqlarImage,
   },
   {
     id: 3,
@@ -368,7 +368,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Universal",
     category: "Sovg'alar",
-    ImageValue: SovgaImage
+    ImageValue: SovgaImage,
   },
   {
     id: 4,
@@ -383,7 +383,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Hadicha",
     category: "O'yinchoqlar",
-    ImageValue:OyinchoqlarImage
+    ImageValue: OyinchoqlarImage,
   },
   {
     id: 5,
@@ -398,7 +398,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Asror",
     category: "O'yinchoqlar",
-    ImageValue:OyinchoqlarImage
+    ImageValue: OyinchoqlarImage,
   },
   {
     id: 6,
@@ -413,7 +413,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Dubayshop",
     category: "Maishiy texnika",
-    ImageValue: MaishiyTexnikaImage
+    ImageValue: MaishiyTexnikaImage,
   },
   {
     id: 7,
@@ -428,7 +428,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Shoxjahon Market",
     category: "Texnika",
-    ImageValue:Texnika
+    ImageValue: Texnika,
   },
   {
     id: 8,
@@ -443,7 +443,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Dubayshop",
     category: "Sport jihozlari",
-    ImageValue:SportJihozlari
+    ImageValue: SportJihozlari,
   },
   {
     id: 9,
@@ -458,7 +458,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "XSHOP",
     category: "Go'zallik",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 10,
@@ -473,7 +473,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Shoxjahon Market",
     category: "Elektronika",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 11,
@@ -488,7 +488,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Jonik Market",
     category: "Elektronika",
-    ImageValue:ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 12,
@@ -503,7 +503,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Shoxjahon Market",
     category: "Go'zallik",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 13,
@@ -518,7 +518,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Asmanli",
     category: "O'yinchoqlar",
-    ImageValue: OyinchoqlarImage
+    ImageValue: OyinchoqlarImage,
   },
   {
     id: 14,
@@ -533,7 +533,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Dubayshop",
     category: "O'yinchoqlar",
-    ImageValue:OyinchoqlarImage
+    ImageValue: OyinchoqlarImage,
   },
   {
     id: 15,
@@ -548,7 +548,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Samo.Market",
     category: "Go'zallik",
-    ImageValue:Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 16,
@@ -563,7 +563,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Asilshop",
     category: "Maishiy texnika",
-    ImageValue: MaishiyTexnikaImage
+    ImageValue: MaishiyTexnikaImage,
   },
   {
     id: 17,
@@ -578,7 +578,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Jonik Market",
     category: "Texnika",
-    ImageValue: Texnika
+    ImageValue: Texnika,
   },
   {
     id: 18,
@@ -593,7 +593,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "AXA.UZ",
     category: "Elektronika",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 19,
@@ -608,7 +608,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Baraka Market N1",
     category: "Elektronika",
-    ImageValue:ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 20,
@@ -623,7 +623,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Shoxjahon Market",
     category: "Texnika",
-    ImageValue: Texnika
+    ImageValue: Texnika,
   },
   {
     id: 21,
@@ -638,7 +638,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Xurshidshop",
     category: "Aksessuarlar",
-    ImageValue: AksessuarlarImage
+    ImageValue: AksessuarlarImage,
   },
   {
     id: 22,
@@ -653,7 +653,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Dilobar",
     category: "Qo'shimcha jihozlar",
-    ImageValue:QoshimchaJihozlar
+    ImageValue: QoshimchaJihozlar,
   },
   {
     id: 23,
@@ -668,7 +668,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Asilshop",
     category: "Diniy to`plamlar",
-    ImageValue:DiniyToplamlarImage
+    ImageValue: DiniyToplamlarImage,
   },
   {
     id: 24,
@@ -683,7 +683,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Asmanali",
     category: "Kiyimlar",
-    ImageValue: Kiyimlar
+    ImageValue: Kiyimlar,
   },
   {
     id: 25,
@@ -698,7 +698,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Elsave",
     category: "Elektronika",
-    ImageValue:ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 26,
@@ -713,7 +713,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Shoxjahon Market",
     category: "Uy uchun texnika",
-    ImageValue:UyUchunTexnika
+    ImageValue: UyUchunTexnika,
   },
   {
     id: 27,
@@ -728,7 +728,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
     category: "Uy uchun texnika",
-    ImageValue:UyUchunTexnika
+    ImageValue: UyUchunTexnika,
   },
   {
     id: 28,
@@ -743,7 +743,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "APPLE OPTOM",
     category: "Telefonlar",
-    ImageValue: Telefonlar
+    ImageValue: Telefonlar,
   },
   {
     id: 29,
@@ -758,7 +758,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Baraka Market N1",
     category: "Go'zallik",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 30,
@@ -773,7 +773,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Shoxjahon Market",
     category: "Uy uchun texnika",
-    ImageValue: UyUchunTexnika
+    ImageValue: UyUchunTexnika,
   },
   {
     id: 31,
@@ -788,7 +788,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
     category: "Uy uchun texnika",
-    ImageValue: UyUchunTexnika
+    ImageValue: UyUchunTexnika,
   },
   {
     id: 32,
@@ -803,7 +803,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     category: "Maishiy texnika",
     brand: "Shoxjahon Market",
-    ImageValue: MaishiyTexnikaImage
+    ImageValue: MaishiyTexnikaImage,
   },
   {
     id: 33,
@@ -818,7 +818,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
     category: "Oshxona uchun",
-    ImageValue: OshxonaUchun
+    ImageValue: OshxonaUchun,
   },
   {
     id: 34,
@@ -833,7 +833,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Jalil shop",
     category: "Go'zallik",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 35,
@@ -848,7 +848,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Shoxjahon Market",
     category: "Qo'shimcha jihozlar",
-    ImageValue: QoshimchaJihozlar
+    ImageValue: QoshimchaJihozlar,
   },
   {
     id: 36,
@@ -863,7 +863,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
     category: "Qo'shimcha jihozlar",
-    ImageValue:QoshimchaJihozlar
+    ImageValue: QoshimchaJihozlar,
   },
   {
     id: 37,
@@ -878,7 +878,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Shoxjahon Market",
     category: "Elektronika",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 38,
@@ -893,7 +893,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
     category: "Uy uchun texnika",
-    ImageValue:UyUchunTexnika
+    ImageValue: UyUchunTexnika,
   },
   {
     id: 39,
@@ -908,7 +908,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Shoxjahon Market",
     category: "O'yinchoqlar",
-    ImageValue:OyinchoqlarImage
+    ImageValue: OyinchoqlarImage,
   },
   {
     id: 40,
@@ -923,7 +923,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
     category: "Elektronika",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 41,
@@ -938,7 +938,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Shoxjahon Market",
     category: "Parfumeriya",
-    ImageValue: ParfumeriyaImage
+    ImageValue: ParfumeriyaImage,
   },
   {
     id: 42,
@@ -953,7 +953,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
     category: "Parfumeriya",
-    ImageValue: ParfumeriyaImage
+    ImageValue: ParfumeriyaImage,
   },
   {
     id: 43,
@@ -968,7 +968,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Shoxjahon Market",
     category: "Qo'shimcha jihozlar",
-    ImageValue: QoshimchaJihozlar
+    ImageValue: QoshimchaJihozlar,
   },
   {
     id: 44,
@@ -983,7 +983,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
     category: "Maishiy texnika",
-    ImageValue: MaishiyTexnikaImage
+    ImageValue: MaishiyTexnikaImage,
   },
   {
     id: 45,
@@ -998,7 +998,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Shoxjahon Market",
     category: "Massaj uskunalar",
-    ImageValue: MassakUskunalar
+    ImageValue: MassakUskunalar,
   },
   {
     id: 46,
@@ -1013,7 +1013,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
     category: "Salomatlik",
-    ImageValue: SalomatlikImage
+    ImageValue: SalomatlikImage,
   },
   {
     id: 47,
@@ -1028,7 +1028,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Shoxjahon Market",
     category: "Uy uchun texnika",
-    ImageValue: UyUchunTexnika
+    ImageValue: UyUchunTexnika,
   },
   {
     id: 48,
@@ -1043,7 +1043,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Elektronika shop",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 49,
@@ -1058,7 +1058,7 @@ export const data = [
     top: true,
     comments: "mahsulot yaxshi",
     brand: "Elektronika shop",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 50,
@@ -1073,7 +1073,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Elektronika shop",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 51,
@@ -1088,7 +1088,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Elektronika shop",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 52,
@@ -1103,7 +1103,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Elektronika shop",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 53,
@@ -1118,7 +1118,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Elektronika shop",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 54,
@@ -1133,7 +1133,7 @@ export const data = [
     top: true,
     comments: "mahsulot yaxshi",
     brand: "Headshot",
-    ImageValue: Telefonlar
+    ImageValue: Telefonlar,
   },
   {
     id: 55,
@@ -1148,7 +1148,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Headshot",
-    ImageValue: Telefonlar
+    ImageValue: Telefonlar,
   },
   {
     id: 56,
@@ -1163,7 +1163,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Headshot",
-    ImageValue: Telefonlar
+    ImageValue: Telefonlar,
   },
   {
     id: 57,
@@ -1178,7 +1178,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Headshot",
-    ImageValue: Telefonlar
+    ImageValue: Telefonlar,
   },
   {
     id: 58,
@@ -1193,7 +1193,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "OPTOM SHOP",
-    ImageValue: MaishiyTexnikaImage
+    ImageValue: MaishiyTexnikaImage,
   },
   {
     id: 59,
@@ -1208,7 +1208,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 60,
@@ -1223,7 +1223,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 61,
@@ -1238,7 +1238,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 62,
@@ -1253,7 +1253,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 63,
@@ -1268,7 +1268,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 64,
@@ -1283,7 +1283,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 65,
@@ -1298,7 +1298,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 66,
@@ -1313,7 +1313,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 67,
@@ -1328,7 +1328,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 68,
@@ -1343,7 +1343,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 69,
@@ -1358,7 +1358,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 70,
@@ -1373,7 +1373,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 71,
@@ -1388,7 +1388,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 72,
@@ -1403,7 +1403,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 73,
@@ -1418,7 +1418,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 74,
@@ -1433,7 +1433,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 75,
@@ -1448,7 +1448,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue:Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 76,
@@ -1463,7 +1463,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue:Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 77,
@@ -1478,7 +1478,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 78,
@@ -1493,7 +1493,7 @@ export const data = [
     isItNew: false,
     top: false,
     comments: "mahsulot yaxshi",
-    ImageValue: Gozalliklar
+    ImageValue: Gozalliklar,
   },
   {
     id: 79,
@@ -1508,7 +1508,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
-    ImageValue: KompyuterTexnikasiData
+    ImageValue: KompyuterTexnikasiData,
   },
   {
     id: 80,
@@ -1523,7 +1523,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "XDM",
-    ImageValue: SalomatlikImage
+    ImageValue: SalomatlikImage,
   },
   {
     id: 81,
@@ -1538,7 +1538,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
-    ImageValue: SalomatlikImage
+    ImageValue: SalomatlikImage,
   },
   {
     id: 82,
@@ -1553,7 +1553,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "OPTOM SHOP",
-    ImageValue: SalomatlikImage
+    ImageValue: SalomatlikImage,
   },
   {
     id: 83,
@@ -1568,7 +1568,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
-    ImageValue: SalomatlikImage
+    ImageValue: SalomatlikImage,
   },
   {
     id: 84,
@@ -1583,7 +1583,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Asilshop",
-    ImageValue: SalomatlikImage
+    ImageValue: SalomatlikImage,
   },
   {
     id: 85,
@@ -1598,7 +1598,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Shoxjahon shop",
-    ImageValue: SalomatlikImage
+    ImageValue: SalomatlikImage,
   },
   {
     id: 86,
@@ -1613,7 +1613,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "XDM",
-    ImageValue: OyinchoqlarImage
+    ImageValue: OyinchoqlarImage,
   },
   {
     id: 87,
@@ -1628,7 +1628,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
-    ImageValue: OyinchoqlarImage
+    ImageValue: OyinchoqlarImage,
   },
   {
     id: 88,
@@ -1643,7 +1643,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
-    ImageValue: SovgaImage
+    ImageValue: SovgaImage,
   },
   {
     id: 89,
@@ -1658,7 +1658,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Shoxjahon shop",
-    ImageValue: SovgaImage
+    ImageValue: SovgaImage,
   },
   {
     id: 90,
@@ -1673,7 +1673,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
-    ImageValue: SovgaImage
+    ImageValue: SovgaImage,
   },
   {
     id: 91,
@@ -1688,7 +1688,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "shoxjahon shop",
-    ImageValue: SovgaImage
+    ImageValue: SovgaImage,
   },
   {
     id: 92,
@@ -1703,7 +1703,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
-    ImageValue: SovgaImage
+    ImageValue: SovgaImage,
   },
   {
     id: 93,
@@ -1719,7 +1719,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "XML",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 94,
@@ -1735,7 +1735,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Asilshop",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 95,
@@ -1751,7 +1751,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Dadamirzayeva",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 96,
@@ -1767,7 +1767,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Apple",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 97,
@@ -1783,7 +1783,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Hadicha",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 98,
@@ -1799,7 +1799,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "OPTOM MARKET",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 99,
@@ -1815,7 +1815,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Asilshop",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 100,
@@ -1831,7 +1831,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 101,
@@ -1847,7 +1847,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "XSHOP",
-    ImageValue: OyinchoqlarImage
+    ImageValue: OyinchoqlarImage,
   },
   {
     id: 102,
@@ -1863,7 +1863,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Jonik Market",
-    ImageValue: OyinchoqlarImage
+    ImageValue: OyinchoqlarImage,
   },
   {
     id: 103,
@@ -1879,7 +1879,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Shoxjahon Market",
-    ImageValue: OyinchoqlarImage
+    ImageValue: OyinchoqlarImage,
   },
   {
     id: 104,
@@ -1894,7 +1894,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Dubayshop",
-    ImageValue: DorilarVaVitaminlar
+    ImageValue: DorilarVaVitaminlar,
   },
   {
     id: 105,
@@ -1909,7 +1909,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
-    ImageValue: DorilarVaVitaminlar
+    ImageValue: DorilarVaVitaminlar,
   },
   {
     id: 106,
@@ -1924,7 +1924,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
-    ImageValue: DorilarVaVitaminlar
+    ImageValue: DorilarVaVitaminlar,
   },
   {
     id: 107,
@@ -1939,7 +1939,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Baraka Market,",
-    ImageValue: DorilarVaVitaminlar
+    ImageValue: DorilarVaVitaminlar,
   },
   {
     id: 108,
@@ -1954,7 +1954,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Jonik shop",
-    ImageValue: DorilarVaVitaminlar
+    ImageValue: DorilarVaVitaminlar,
   },
   {
     id: 109,
@@ -1969,7 +1969,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "Hadicha",
-    ImageValue: DorilarVaVitaminlar
+    ImageValue: DorilarVaVitaminlar,
   },
   {
     id: 110,
@@ -1984,7 +1984,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "XDM",
-    ImageValue: DorilarVaVitaminlar
+    ImageValue: DorilarVaVitaminlar,
   },
   {
     id: 111,
@@ -1999,7 +1999,7 @@ export const data = [
     top: false,
     comments: "mahsulot yaxshi",
     brand: "BeReal",
-    ImageValue: AksessuarlarImage
+    ImageValue: AksessuarlarImage,
   },
   {
     id: 112,
@@ -2014,7 +2014,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Kremlar shop",
     category: "Go'zallik",
-    ImageValue: ParfumeriyaImage
+    ImageValue: ParfumeriyaImage,
   },
   {
     id: 113,
@@ -2029,7 +2029,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Kremlar shop",
     category: "Go'zallik",
-    ImageValue: ParfumeriyaImage
+    ImageValue: ParfumeriyaImage,
   },
   {
     id: 114,
@@ -2044,7 +2044,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Kremlar shop",
     category: "Go'zallik",
-    ImageValue: ParfumeriyaImage
+    ImageValue: ParfumeriyaImage,
   },
   {
     id: 115,
@@ -2059,7 +2059,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Ortopedik buyumlar shop",
     category: "Kiyimlar",
-    ImageValue: Kiyimlar
+    ImageValue: Kiyimlar,
   },
   {
     id: 116,
@@ -2074,7 +2074,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Ortopedik buyumlar shop",
     category: "Kiyimlar",
-    ImageValue: Kiyimlar
+    ImageValue: Kiyimlar,
   },
   {
     id: 117,
@@ -2089,7 +2089,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Quloqchinlar.UZ",
     category: "Aksessuarlar",
-    ImageValue: AksessuarlarImage
+    ImageValue: AksessuarlarImage,
   },
   {
     id: 118,
@@ -2104,7 +2104,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Quloqchinlar.UZ",
     category: "Aksessuarlar",
-    ImageValue: AksessuarlarImage
+    ImageValue: AksessuarlarImage,
   },
   {
     id: 119,
@@ -2119,7 +2119,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Aqlli.UZ",
     category: "Elektronika",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 120,
@@ -2134,7 +2134,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Aqlli.UZ",
     category: "Elektronika",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 121,
@@ -2149,7 +2149,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Aqlli.UZ",
     category: "Elektronika",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 122,
@@ -2164,7 +2164,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Navigator shop",
     category: "Elektronika",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 123,
@@ -2179,7 +2179,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Navigator shop",
     category: "Elektronika",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 124,
@@ -2194,7 +2194,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Texnika shop",
     category: "Elektronika",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 125,
@@ -2209,7 +2209,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Texnika shop",
     category: "Elektronika",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 126,
@@ -2224,7 +2224,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Texnika shop",
     category: "Elektronika",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 127,
@@ -2239,7 +2239,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Akumlyator shop",
     category: "Qo'shimcha jihozlar",
-    ImageValue: QoshimchaJihozlar
+    ImageValue: QoshimchaJihozlar,
   },
   {
     id: 128,
@@ -2254,7 +2254,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Akumlyator shop",
     category: "Qo'shimcha jihozlar",
-    ImageValue: QoshimchaJihozlar
+    ImageValue: QoshimchaJihozlar,
   },
   {
     id: 129,
@@ -2269,7 +2269,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Telefon shop",
     category: "Aksessuarlar",
-    ImageValue: AksessuarlarImage
+    ImageValue: AksessuarlarImage,
   },
   {
     id: 130,
@@ -2284,7 +2284,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Telefon shop",
     category: "Aksessuarlar",
-    ImageValue: AksessuarlarImage
+    ImageValue: AksessuarlarImage,
   },
   {
     id: 131,
@@ -2299,7 +2299,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Telefon shop",
     category: "Aksessuarlar",
-    ImageValue: AksessuarlarImage
+    ImageValue: AksessuarlarImage,
   },
   {
     id: 132,
@@ -2314,7 +2314,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Knopka shop",
     category: "Telefonlar",
-    ImageValue: Telefonlar
+    ImageValue: Telefonlar,
   },
   {
     id: 133,
@@ -2329,7 +2329,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Knopka shop",
     category: "Telefonlar",
-    ImageValue: Telefonlar
+    ImageValue: Telefonlar,
   },
   {
     id: 134,
@@ -2344,7 +2344,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Knopka shop",
     category: "Telefonlar",
-    ImageValue: Telefonlar
+    ImageValue: Telefonlar,
   },
   {
     id: 135,
@@ -2359,7 +2359,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Knopka shop",
     category: "Telefonlar",
-    ImageValue: Telefonlar
+    ImageValue: Telefonlar,
   },
   {
     id: 136,
@@ -2374,7 +2374,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Videoregstratorlar shop",
     category: "Qo'shimcha jihozlar",
-    ImageValue: QoshimchaJihozlar
+    ImageValue: QoshimchaJihozlar,
   },
   {
     id: 137,
@@ -2389,7 +2389,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Videoregstratorlar shop",
     category: "Qo'shimcha jihozlar",
-    ImageValue: QoshimchaJihozlar
+    ImageValue: QoshimchaJihozlar,
   },
   {
     id: 138,
@@ -2404,7 +2404,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Home shop",
     category: "Uy uchun texnika",
-    ImageValue: UyUchunTexnika
+    ImageValue: UyUchunTexnika,
   },
   {
     id: 139,
@@ -2419,7 +2419,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Home shop",
     category: "Uy uchun texnika",
-    ImageValue: UyUchunTexnika
+    ImageValue: UyUchunTexnika,
   },
   {
     id: 140,
@@ -2434,7 +2434,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Home shop",
     category: "Uy uchun texnika",
-    ImageValue: UyUchunTexnika
+    ImageValue: UyUchunTexnika,
   },
   {
     id: 141,
@@ -2449,7 +2449,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Home shop",
     category: "Uy uchun texnika",
-    ImageValue: UyUchunTexnika
+    ImageValue: UyUchunTexnika,
   },
   {
     id: 142,
@@ -2464,7 +2464,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Home shop",
     category: "Uy uchun texnika",
-    ImageValue: UyUchunTexnika
+    ImageValue: UyUchunTexnika,
   },
   {
     id: 143,
@@ -2479,7 +2479,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Home shop",
     category: "Uy uchun texnika",
-    ImageValue: UyUchunTexnika
+    ImageValue: UyUchunTexnika,
   },
   {
     id: 144,
@@ -2494,7 +2494,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Texnika shop",
     category: "Elektronika",
-    ImageValue: ElektronikaImage
+    ImageValue: ElektronikaImage,
   },
   {
     id: 145,
@@ -2509,7 +2509,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Aksessuar shop",
     category: "Aksessuarlar",
-    ImageValue: AksessuarlarImage
+    ImageValue: AksessuarlarImage,
   },
   {
     id: 146,
@@ -2524,7 +2524,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Aksessuar shop",
     category: "Aksessuarlar",
-    ImageValue: AksessuarlarImage
+    ImageValue: AksessuarlarImage,
   },
   {
     id: 147,
@@ -2539,7 +2539,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Aksessuar shop",
     category: "Aksessuarlar",
-    ImageValue: AksessuarlarImage
+    ImageValue: AksessuarlarImage,
   },
   {
     id: 148,
@@ -2554,7 +2554,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Aksessuar shop",
     category: "Aksessuarlar",
-    ImageValue: AksessuarlarImage
+    ImageValue: AksessuarlarImage,
   },
   {
     id: 149,
@@ -2569,7 +2569,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Aksessuar shop",
     category: "Aksessuarlar",
-    ImageValue: AksessuarlarImage
+    ImageValue: AksessuarlarImage,
   },
   {
     id: 150,
@@ -2584,7 +2584,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Aksessuar shop",
     category: "Aksessuarlar",
-    ImageValue: AksessuarlarImage
+    ImageValue: AksessuarlarImage,
   },
   {
     id: 151,
@@ -2599,7 +2599,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Sport shop",
     category: "Kiyimlar",
-    ImageValue: Kiyimlar
+    ImageValue: Kiyimlar,
   },
   {
     id: 152,
@@ -2614,7 +2614,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Kiyim shop",
     category: "Kiyimlar",
-    ImageValue: Kiyimlar
+    ImageValue: Kiyimlar,
   },
   {
     id: 153,
@@ -2629,7 +2629,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Kiyim shop",
     category: "Kiyimlar",
-    ImageValue: Kiyimlar
+    ImageValue: Kiyimlar,
   },
   {
     id: 154,
@@ -2644,7 +2644,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Babby shop",
     category: "O'yinchoqlar",
-    ImageValue: OyinchoqlarImage
+    ImageValue: OyinchoqlarImage,
   },
   {
     id: 155,
@@ -2659,7 +2659,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Gozal shop",
     category: "Parfumeriya",
-    ImageValue: ParfumeriyaImage
+    ImageValue: ParfumeriyaImage,
   },
   {
     id: 156,
@@ -2674,7 +2674,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Gozal shop",
     category: "Parfumeriya",
-    ImageValue: ParfumeriyaImage
+    ImageValue: ParfumeriyaImage,
   },
   {
     id: 157,
@@ -2689,7 +2689,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Gozal shop",
     category: "Parfumeriya",
-    ImageValue: ParfumeriyaImage
+    ImageValue: ParfumeriyaImage,
   },
   {
     id: 158,
@@ -2704,7 +2704,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Gozal shop",
     category: "Parfumeriya",
-    ImageValue: ParfumeriyaImage
+    ImageValue: ParfumeriyaImage,
   },
   {
     id: 159,
@@ -2719,7 +2719,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Gozal shop",
     category: "Salomatlik",
-    ImageValue: SalomatlikImage
+    ImageValue: SalomatlikImage,
   },
   {
     id: 160,
@@ -2734,7 +2734,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Gozal shop",
     category: "Salomatlik",
-    ImageValue: SalomatlikImage
+    ImageValue: SalomatlikImage,
   },
   {
     id: 161,
@@ -2749,7 +2749,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Gozal shop",
     category: "Salomatlik",
-    ImageValue: SalomatlikImage
+    ImageValue: SalomatlikImage,
   },
   {
     id: 162,
@@ -2764,7 +2764,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Hair shop",
     category: "Maishiy texnika",
-    ImageValue: MaishiyTexnikaImage
+    ImageValue: MaishiyTexnikaImage,
   },
   {
     id: 163,
@@ -2779,7 +2779,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Hair shop",
     category: "Parfumeriya",
-    ImageValue: ParfumeriyaImage
+    ImageValue: ParfumeriyaImage,
   },
   {
     id: 164,
@@ -2794,7 +2794,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Texnik shop",
     category: "Texnika",
-    ImageValue: Texnika
+    ImageValue: Texnika,
   },
   {
     id: 165,
@@ -2809,7 +2809,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Ease shop",
     category: "Sovg'alar",
-    ImageValue: SovgaImage
+    ImageValue: SovgaImage,
   },
   {
     id: 166,
@@ -2824,7 +2824,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "water shop",
     category: "Dori & vitaminlar",
-    ImageValue: DorilarVaVitaminlar
+    ImageValue: DorilarVaVitaminlar,
   },
   {
     id: 167,
@@ -2839,7 +2839,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "water shop",
     category: "Dori & vitaminlar",
-    ImageValue: DorilarVaVitaminlar
+    ImageValue: DorilarVaVitaminlar,
   },
   {
     id: 168,
@@ -2854,7 +2854,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "water shop",
     category: "Dori & vitaminlar",
-    ImageValue: DorilarVaVitaminlar
+    ImageValue: DorilarVaVitaminlar,
   },
   {
     id: 169,
@@ -2869,7 +2869,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "water shop",
     category: "Dori & vitaminlar",
-    ImageValue: DorilarVaVitaminlar
+    ImageValue: DorilarVaVitaminlar,
   },
   {
     id: 170,
@@ -2884,7 +2884,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     category: "Massaj uskunalar",
     brand: "Uskuna shop",
-    ImageValue: MassakUskunalar
+    ImageValue: MassakUskunalar,
   },
   {
     id: 171,
@@ -2899,7 +2899,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     category: "Massaj uskunalar",
     brand: "Uskuna shop",
-    ImageValue: MassakUskunalar
+    ImageValue: MassakUskunalar,
   },
   {
     id: 172,
@@ -2914,7 +2914,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     category: "Massaj uskunalar",
     brand: "Uskuna shop",
-    ImageValue: MassakUskunalar
+    ImageValue: MassakUskunalar,
   },
   {
     id: 173,
@@ -2929,7 +2929,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Clever shop",
     category: "O'yinchoqlar",
-    ImageValue: OyinchoqlarImage
+    ImageValue: OyinchoqlarImage,
   },
   {
     id: 174,
@@ -2944,7 +2944,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Book shop",
     category: "Diniy to`plamlar",
-    ImageValue: DiniyToplamlarImage
+    ImageValue: DiniyToplamlarImage,
   },
   {
     id: 175,
@@ -2959,7 +2959,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Biznes shop",
     category: "Kitoblar",
-    ImageValue: Kitoblar
+    ImageValue: Kitoblar,
   },
   {
     id: 176,
@@ -2974,7 +2974,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Beautiful shop",
     category: "Parfumeriya",
-    ImageValue: ParfumeriyaImage
+    ImageValue: ParfumeriyaImage,
   },
   {
     id: 177,
@@ -2989,7 +2989,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Beautiful shop",
     category: "Parfumeriya",
-    ImageValue: ParfumeriyaImage
+    ImageValue: ParfumeriyaImage,
   },
   {
     id: 178,
@@ -3004,7 +3004,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Book shop",
     category: "Diniy to`plamlar",
-    ImageValue: ParfumeriyaImage
+    ImageValue: ParfumeriyaImage,
   },
   {
     id: 179,
@@ -3019,7 +3019,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Book shop",
     category: "Diniy to`plamlar",
-    ImageValue: DiniyToplamlarImage
+    ImageValue: DiniyToplamlarImage,
   },
   {
     id: 180,
@@ -3034,7 +3034,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Book shop",
     category: "Diniy to`plamlar",
-    ImageValue: DiniyToplamlarImage
+    ImageValue: DiniyToplamlarImage,
   },
   {
     id: 181,
@@ -3049,7 +3049,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Book shop",
     category: "Diniy to`plamlar",
-    ImageValue: DiniyToplamlarImage
+    ImageValue: DiniyToplamlarImage,
   },
   {
     id: 182,
@@ -3064,7 +3064,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Book shop",
     category: "Diniy to`plamlar",
-    ImageValue: DiniyToplamlarImage
+    ImageValue: DiniyToplamlarImage,
   },
   {
     id: 183,
@@ -3079,7 +3079,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Book shop",
     category: "Diniy to`plamlar",
-    ImageValue: DiniyToplamlarImage
+    ImageValue: DiniyToplamlarImage,
   },
   {
     id: 184,
@@ -3094,7 +3094,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Book shop",
     category: "Diniy to`plamlar",
-    ImageValue: DiniyToplamlarImage
+    ImageValue: DiniyToplamlarImage,
   },
   {
     id: 185,
@@ -3109,7 +3109,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Taqinchoq shop",
     category: "Zargarlik buyumlari",
-    ImageValue: ZargarlikBuyumlari
+    ImageValue: ZargarlikBuyumlari,
   },
   {
     id: 186,
@@ -3124,7 +3124,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Taqinchoq shop",
     category: "Zargarlik buyumlari",
-    ImageValue: ZargarlikBuyumlari
+    ImageValue: ZargarlikBuyumlari,
   },
   {
     id: 187,
@@ -3139,7 +3139,7 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Taqinchoq shop",
     category: "Zargarlik buyumlari",
-    ImageValue: ZargarlikBuyumlari
+    ImageValue: ZargarlikBuyumlari,
   },
   {
     id: 188,
@@ -3154,10 +3154,9 @@ export const data = [
     comments: "mahsulot yaxshi",
     brand: "Suverin shop",
     category: "Sovg'alar",
-    ImageValue: SovgaImage
+    ImageValue: SovgaImage,
   },
 ];
-
 
 export function setCategoryToArray(arr) {
   let categoryes = new Set();
