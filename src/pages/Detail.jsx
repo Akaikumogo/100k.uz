@@ -1,20 +1,21 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Link, useParams } from "react-router-dom";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { data } from "../data/Data";
 import StarIcon from "../image/starIcon.png";
 import ContaktIcon from "../image/ContaktIcon.png";
 import SimpleRasm from "../image/SimpleRasm.jpg";
 
 const Detail = () => {
-  const [open, setOpen] = React.useState(false);
+  // const [open, setOpen] = React.useState(false);
 
-  const handleTooltipClose = () => {
-    setOpen(false);
-  };
+  // const handleTooltipClose = () => {
+  //   setOpen(false);
+  // };
 
-  const handleTooltipOpen = () => {
-    setOpen(true);
-  };
+  // const handleTooltipOpen = () => {
+  //   setOpen(true);
+  // };
   /////////////////input////////////////
   const [ism, setIsm] = useState("");
   const [phone, setPhone] = useState("");
@@ -56,7 +57,9 @@ const Detail = () => {
       <div className="w-full max-w-[1000px] px-5 mx-auto">
         <div className="flex justify-between items-center py-5">
           <div>
-            <h3 className="xl:text-2xl xl:w-96 xl:font-bold lg:text-2xl lg:w-96 lg:font-bold md:text-2xl md:w-96 md:font-bold sm:w-96 sm:text-xl sm:font-bold text-xl font-bold w-80">{info.name}</h3>
+            <h3 className="xl:text-2xl xl:w-96 xl:font-bold lg:text-2xl lg:w-96 lg:font-bold md:text-2xl md:w-96 md:font-bold sm:w-96 sm:text-xl sm:font-bold text-xl font-bold w-80">
+              {info.name}
+            </h3>
             <div></div>
           </div>
           <div>
@@ -229,7 +232,11 @@ const Detail = () => {
                       </button>
                     </form>
                   )}
-                  <img className="pt-5 xl:w-[100%] xl:h-[130px] lg:w-[100%] lg:h-[130px] md:w-[100%] md:h-[130px] sm:w-screen sm:h-[170px] w-screen h-[170px] " src={SimpleRasm} al="Simple rasm"></img>
+                  <img
+                    className="pt-5 xl:w-[100%] xl:h-[130px] lg:w-[100%] lg:h-[130px] md:w-[100%] md:h-[130px] sm:w-screen sm:h-[170px] w-screen h-[170px] "
+                    src={SimpleRasm}
+                    alt="Simple rasm"
+                  ></img>
                 </div>
               </div>
             </div>
@@ -237,7 +244,7 @@ const Detail = () => {
         </div>
 
         <div className="flex pt-10">
-          <button 
+          <button
             onClick={() => {
               setOpenDetails(true);
             }}
@@ -255,53 +262,126 @@ const Detail = () => {
             kamentariyaga otish
           </button>
         </div>
-
       </div>
       {/* openDetails qiymati qachonki true bo'lganida batafsilni chiqaradi */}
       {openDetails === true ? (
         <div className="bg-white py-10">
-        <div className="w-full max-w-[900px] px-5 mx-auto">
-      <p>{info.desc}</p>
-        </div>
+          <div className="w-full max-w-[900px] px-5 mx-auto">
+            <p>{info.desc}</p>
+          </div>
         </div>
       ) : (
         //   : aks holda commentsni chiqaradi
         <div className="bg-white ">
           <div className="w-full max-w-[900px] px-5 mx-auto">
-      <p className="pb-10 pt-14 text-3xl">Mijozlar tomonidan qoldirilgan izohlar</p>
-      <div className="flex bg-gray-200 p-3 rounded-xl space-x-2">
-      <img className="bg-gray-200 w-[60px] h-[60px] rounded-full" src={ContaktIcon}alt="Contakt icon"/>
-      <div className="flex">
-      <img className="w-[25px] h-[25px]" src={StarIcon} alt="Star icon"/>
-      <img className="w-[25px] h-[25px]" src={StarIcon} alt="Star icon"/>
-      <img className="w-[25px] h-[25px]" src={StarIcon} alt="Star icon"/>
-      <img className="w-[25px] h-[25px]" src={StarIcon} alt="Star icon"/>
-      <img className="w-[25px] h-[25px]" src={StarIcon} alt="Star icon"/>
-      <p className="ml-5">7 месяцев назад</p>
-      </div>
-      </div>
-      <div className="flex bg-gray-200 p-3 rounded-xl space-x-2 my-5">
-      <img className="bg-gray-200 w-[60px] h-[60px] rounded-full" src={ContaktIcon}alt="Contakt icon"/>
-      <div className="flex">
-      <img className="w-[25px] h-[25px]" src={StarIcon} alt="Star icon"/>
-      <img className="w-[25px] h-[25px]" src={StarIcon} alt="Star icon"/>
-      <img className="w-[25px] h-[25px]" src={StarIcon} alt="Star icon"/>
-      <img className="w-[25px] h-[25px]" src={StarIcon} alt="Star icon"/>
-      <img className="w-[25px] h-[25px]" src={StarIcon} alt="Star icon"/>
-      <img className="w-[25px] h-[25px]" src={StarIcon} alt="Star icon"/>
-      <p className="ml-5">6 месяцев назад</p>
-      </div>
-      </div>
-      <div className="flex bg-gray-200 p-3 rounded-xl space-x-2">
-      <img className="bg-gray-200 w-[60px] h-[60px] rounded-full" src={ContaktIcon}alt="Contakt icon"/>
-      <div className="flex">
-      <img className="w-[25px] h-[25px]" src={StarIcon} alt="Star icon"/>
-      <img className="w-[25px] h-[25px]" src={StarIcon} alt="Star icon"/>
-      <img className="w-[25px] h-[25px]" src={StarIcon} alt="Star icon"/>
-      <img className="w-[25px] h-[25px]" src={StarIcon} alt="Star icon"/>
-      <p className="ml-5">3 месяца назад</p>
-      </div>
-      </div>
+            <p className="pb-10 pt-14 text-3xl">
+              Mijozlar tomonidan qoldirilgan izohlar
+            </p>
+            <div className="flex bg-gray-200 p-3 rounded-xl space-x-2">
+              <img
+                className="bg-gray-200 w-[60px] h-[60px] rounded-full"
+                src={ContaktIcon}
+                alt="Contakt icon"
+              />
+              <div className="flex">
+                <img
+                  className="w-[25px] h-[25px]"
+                  src={StarIcon}
+                  alt="Star icon"
+                />
+                <img
+                  className="w-[25px] h-[25px]"
+                  src={StarIcon}
+                  alt="Star icon"
+                />
+                <img
+                  className="w-[25px] h-[25px]"
+                  src={StarIcon}
+                  alt="Star icon"
+                />
+                <img
+                  className="w-[25px] h-[25px]"
+                  src={StarIcon}
+                  alt="Star icon"
+                />
+                <img
+                  className="w-[25px] h-[25px]"
+                  src={StarIcon}
+                  alt="Star icon"
+                />
+                <p className="ml-5">7 месяцев назад</p>
+              </div>
+            </div>
+            <div className="flex bg-gray-200 p-3 rounded-xl space-x-2 my-5">
+              <img
+                className="bg-gray-200 w-[60px] h-[60px] rounded-full"
+                src={ContaktIcon}
+                alt="Contakt icon"
+              />
+              <div className="flex">
+                <img
+                  className="w-[25px] h-[25px]"
+                  src={StarIcon}
+                  alt="Star icon"
+                />
+                <img
+                  className="w-[25px] h-[25px]"
+                  src={StarIcon}
+                  alt="Star icon"
+                />
+                <img
+                  className="w-[25px] h-[25px]"
+                  src={StarIcon}
+                  alt="Star icon"
+                />
+                <img
+                  className="w-[25px] h-[25px]"
+                  src={StarIcon}
+                  alt="Star icon"
+                />
+                <img
+                  className="w-[25px] h-[25px]"
+                  src={StarIcon}
+                  alt="Star icon"
+                />
+                <img
+                  className="w-[25px] h-[25px]"
+                  src={StarIcon}
+                  alt="Star icon"
+                />
+                <p className="ml-5">6 месяцев назад</p>
+              </div>
+            </div>
+            <div className="flex bg-gray-200 p-3 rounded-xl space-x-2">
+              <img
+                className="bg-gray-200 w-[60px] h-[60px] rounded-full"
+                src={ContaktIcon}
+                alt="Contakt icon"
+              />
+              <div className="flex">
+                <img
+                  className="w-[25px] h-[25px]"
+                  src={StarIcon}
+                  alt="Star icon"
+                />
+                <img
+                  className="w-[25px] h-[25px]"
+                  src={StarIcon}
+                  alt="Star icon"
+                />
+                <img
+                  className="w-[25px] h-[25px]"
+                  src={StarIcon}
+                  alt="Star icon"
+                />
+                <img
+                  className="w-[25px] h-[25px]"
+                  src={StarIcon}
+                  alt="Star icon"
+                />
+                <p className="ml-5">3 месяца назад</p>
+              </div>
+            </div>
           </div>
         </div>
       )}

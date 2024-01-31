@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import android_icon from "../image/android.svg";
 import apple_icon from "../image/apple.svg";
 import global_icon from "../image/global_icon.png";
 import { Link } from "react-router-dom";
-import down_icon from "../image/down_icon.png";
-import up_icon from "../image/up_icon.png";
+
 import logo_100k from "../image/logo_100k.png";
 import search from "../image/search.svg";
 import { data } from "../data/Data";
@@ -15,7 +14,7 @@ const Header = () => {
   const applestore = "https://apps.apple.com/pl/app/100k-shop/id1529911106";
   const [searchProduct, setSearchProduct] = useState("");
   const [render, setRender] = useState(false);
-  console.log(searchProduct);
+  console.log(render);
 
   const searchedProduct = data.filter((product) => {
     if (searchProduct === "") {

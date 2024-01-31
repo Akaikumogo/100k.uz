@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+/* eslint-disable react/no-unescaped-entities */
+import { useEffect, useState } from "react";
 import { category, data } from "../data/Data";
 import { Link } from "react-router-dom";
 
@@ -7,7 +8,6 @@ import CarImage from "../image/CarImage.png";
 import OneImage from "../image/OneImage.png";
 import TwoImage from "../image/TwoImage.png";
 import SovgaImage from "../image/SovgaImageThree.png";
-import ElektronikaImage from "../image/ElektronikaImage.webp";
 
 const Home = () => {
   const [newProducts, setNewProducts] = useState([]);
@@ -16,11 +16,6 @@ const Home = () => {
     setNewProducts(data.filter((product) => product.isItNew));
     setTopProducts(data.filter((product) => product.top));
   }, []);
-
-  data.forEach((data) => {
-    const model = data.model;
-    // ImageValue[model] = (modelCounts[model] || 0) + 1;
-  });
 
   return (
     <>
@@ -35,12 +30,12 @@ const Home = () => {
                   className="flex items-center justify-center flex-col space-y-2.5 category-link"
                 >
                   <div className="text-center">
-                    
-
                     <img
-                      src={data.find((product) => {
-                        return product.category === item;
-                      }).ImageValue}
+                      src={
+                        data.find((product) => {
+                          return product.category === item;
+                        }).ImageValue
+                      }
                       className="w-[100px] h-[100px] rounded-full"
                       alt=""
                     />
@@ -67,90 +62,89 @@ const Home = () => {
 
       {/* Section */}
       <section className="py-7 bg-gray-100">
-  <div className="w-full max-w-[900px] px-5 mx-auto">
-    <div className="flex flex-col sm:flex-row items-center justify-between">
-    <div className="xl:flex xl:justify-between text-center mb-3">
-      <h3 className="text-[30px] font-semibold">Yangi kelgan mahsulotlar</h3>
-      <Link
-        to="/Barchasi"
-        className="text-red-700 hover:text-[#E30909] inline-block"
-      >
-        <button className="px-4 py-3 bg-gradient-to-r from-red-400 to-purple-400 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg">
-          Barchasini korish
-        </button>
-      </Link>
-    </div>
-    </div>
+        <div className="w-full max-w-[900px] px-5 mx-auto">
+          <div className="flex flex-col sm:flex-row items-center justify-between">
+            <div className="xl:flex xl:justify-between text-center mb-3">
+              <h3 className="text-[30px] font-semibold">
+                Yangi kelgan mahsulotlar
+              </h3>
+              <Link
+                to="/Barchasi"
+                className="text-red-700 hover:text-[#E30909] inline-block"
+              >
+                <button className="px-4 py-3 bg-gradient-to-r from-red-400 to-purple-400 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg">
+                  Barchasini korish
+                </button>
+              </Link>
+            </div>
+          </div>
 
-    <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-5 mt-3">
-      {newProducts &&
-        newProducts.slice(0, 8).map((product) => (
-          <li className="border rounded-lg bg-white" key={product.id}>
-            <Link to={`/${product.category}/${product.id}`}>
-              <img
-                className="rounded-lg w-full h-[190px] object-cover"
-                src={product.image}
-                alt={product.name}
-              />
-              <div className="p-1">
-                <h3 className="text-sm opacity-90">{product.name}</h3>
-                <div className="flex items-center my-1">
-                  <span>
-                    <b>{product.price},000 </b>
-                    so`m
-                  </span>
-                </div>
-              </div>
-            </Link>
-          </li>
-        ))}
-    </ul>
-  </div>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-5 mt-3">
+            {newProducts &&
+              newProducts.slice(0, 8).map((product) => (
+                <li className="border rounded-lg bg-white" key={product.id}>
+                  <Link to={`/${product.category}/${product.id}`}>
+                    <img
+                      className="rounded-lg w-full h-[190px] object-cover"
+                      src={product.image}
+                      alt={product.name}
+                    />
+                    <div className="p-1">
+                      <h3 className="text-sm opacity-90">{product.name}</h3>
+                      <div className="flex items-center my-1">
+                        <span>
+                          <b>{product.price},000 </b>
+                          so`m
+                        </span>
+                      </div>
+                    </div>
+                  </Link>
+                </li>
+              ))}
+          </ul>
+        </div>
       </section>
-
 
       {/* Main */}
       <main className="py-7 bg-gray-100">
-  <div className="w-full max-w-[900px] px-5 mx-auto">
-    <div className="text-center mb-3">
-      <h3 className="text-[30px] font-semibold">Ommabop mahsulotlar</h3>
-      <Link
-        to="/Barchasi"
-        className="text-red-700 hover:text-[#E30909] inline-block"
-      >
-        <button className="px-4 py-3 bg-gradient-to-r from-red-400 to-purple-400 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg">
-          Barchasini korish
-        </button>
-      </Link>
-    </div>
-
-    <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-5 mt-3">
-      {topProducts &&
-        topProducts.slice(0, 8).map((product) => (
-          <li className="border rounded-lg bg-white" key={product.id}>
-            <Link to={`/${product.category}/${product.id}`}>
-              <img
-                className="rounded-lg w-full h-[190px] object-cover"
-                src={product.image}
-                alt={product.name}
-              />
-              <div className="p-1">
-                <h3 className="text-sm opacity-90">{product.name}</h3>
-                <div className="flex items-center my-1">
-                  <span>
-                    <b>{product.price},000 </b>
-                    so`m
-                  </span>
-                </div>
-              </div>
+        <div className="w-full max-w-[900px] px-5 mx-auto">
+          <div className="text-center mb-3">
+            <h3 className="text-[30px] font-semibold">Ommabop mahsulotlar</h3>
+            <Link
+              to="/Barchasi"
+              className="text-red-700 hover:text-[#E30909] inline-block"
+            >
+              <button className="px-4 py-3 bg-gradient-to-r from-red-400 to-purple-400 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg">
+                Barchasini korish
+              </button>
             </Link>
-          </li>
-        ))}
-    </ul>
-  </div>
-</main>
+          </div>
 
-
+          <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-5 mt-3">
+            {topProducts &&
+              topProducts.slice(0, 8).map((product) => (
+                <li className="border rounded-lg bg-white" key={product.id}>
+                  <Link to={`/${product.category}/${product.id}`}>
+                    <img
+                      className="rounded-lg w-full h-[190px] object-cover"
+                      src={product.image}
+                      alt={product.name}
+                    />
+                    <div className="p-1">
+                      <h3 className="text-sm opacity-90">{product.name}</h3>
+                      <div className="flex items-center my-1">
+                        <span>
+                          <b>{product.price},000 </b>
+                          so`m
+                        </span>
+                      </div>
+                    </div>
+                  </Link>
+                </li>
+              ))}
+          </ul>
+        </div>
+      </main>
 
       {/* 100k Qulayliklari */}
       <div className="bg-white pb-20 pt-5">
